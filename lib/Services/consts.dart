@@ -1,0 +1,12 @@
+const home = '/home';
+const auth = '/auth';
+const conf = '/conf';
+const emergencyInfo = '/emergency-info';
+const fallHistory = '/fall-history';
+const safe = '/safe';
+const anomalousAlert = '/anomalousAlert';
+const ambulance = '/ambulance';
+const loading = '/loading';
+const apiBaseUrl = 'http://54.251.208.113:8001/';
+const wsURL = "ws://54.251.208.113:8001/ws/";
+// const apiBaseUrl = 'http://10.0.2.2:8001/';
