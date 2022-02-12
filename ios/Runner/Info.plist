@@ -43,5 +43,9 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Location is used to detect fall occurance. It is the main function of the app.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location is used to detect fall occurance. It is the main function of the app.</string>
 </dict>
 </plist>
