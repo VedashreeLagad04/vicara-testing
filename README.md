@@ -1,2 +1,0 @@
-"# vicara-testing" 
-"# vicara-testing" 
