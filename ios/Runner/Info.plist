@@ -36,7 +36,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0.8</string>
+	<string>2.0.1</string>
 	<key>CLIENT_ID</key>
 	<string>2796489029-879is0ja2s0scn64tfemv9sv45cq1l2c.apps.googleusercontent.com</string>
 	<key>GCM_SENDER_ID</key>
@@ -58,7 +58,7 @@
 	<key>NSContactsUsageDescription</key>
 	<string>This app requires contacts access to function properly.</string>
 	<key>NSLocationUsageDescription</key>
-	<string></string>
+	<string>This app needs access to location when open to get users location</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>PROJECT_ID</key>
@@ -68,7 +68,10 @@
 	<key>STORAGE_BUCKET</key>
 	<string>vicara-fall-detection.appspot.com</string>
 	<key>UIBackgroundModes</key>
-	<string>location</string>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -91,9 +94,7 @@
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>This app needs access to location when open to get users location</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>This app needs access to location when open.</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>This app needs access to location when in the background.</string>
+	<string>This app needs access to location when open to get users location</string>
 	<key>NSMotionUsageDescription</key>
 	<string>A reason to get the permission</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
