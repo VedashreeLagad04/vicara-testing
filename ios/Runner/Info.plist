@@ -36,7 +36,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.0.1</string>
+	<string>2.0.2</string>
 	<key>CLIENT_ID</key>
 	<string>2796489029-879is0ja2s0scn64tfemv9sv45cq1l2c.apps.googleusercontent.com</string>
 	<key>GCM_SENDER_ID</key>
